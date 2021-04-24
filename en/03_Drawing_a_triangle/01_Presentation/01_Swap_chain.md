@@ -20,7 +20,7 @@ For that purpose we'll first extend the `isDeviceSuitable` function to check if
 this extension is supported. We've previously seen how to list the extensions
 that are supported by a `VkPhysicalDevice`, so doing that should be fairly
 straightforward. Note that the Vulkan header file provides a nice macro
-`VK_KHR_SWAPCHAIN_EXTENSION_NAME` that is defined as `VK_KHR_swapchain`. The
+`VK_KHR_SWAPCHAIN_EXTENSION_NAME` that is defined as `"VK_KHR_swapchain"`. The
 advantage of using this macro is that the compiler will catch misspellings.
 
 First declare a list of required device extensions, similar to the list of
